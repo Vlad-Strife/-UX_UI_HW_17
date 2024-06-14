@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+.fixed-background {
+    background-image: url("../images/BG.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: center;
+    height: 100vh; /* Full height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    text-align: center;
+}
+.text {
+    position: absolute;
+    top: 20px;
+    color: white;
+    font-size: 1em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    
+
+}
+.center-image {
+    max-width: 100%;
+    max-height: 60%;
+    margin-block-start: 250px;
+    
+}
